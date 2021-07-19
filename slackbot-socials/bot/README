@@ -1,0 +1,5 @@
+Hey! I programmed this bot to notify the officer team (including me) of a university club that a new video had been posted to our official YouTube channel.
+
+The bot uses the YouTube v3 API to get a list of actions, and my bot queries the API every 60 seconds for any new actions. In early versions of the bot, it had trouble distinguishing the deletion of a video from the posting of a new one, but a simple array of past video ID's that had already been posted solved that issue. In case anything fails, the bot will DM me with the error.
+
+Feel free to use all or part of my code! Just remember to point it to your .env file with your slack token, your API credentials json file, change channel ID's as appropriate, etc.
